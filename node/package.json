@@ -1,0 +1,12 @@
+{
+  "name": "kata-gym-node",
+  "private": true,
+  "workspaces": [
+    "katas/*",
+    "projects/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  }
+}

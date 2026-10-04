@@ -1,0 +1,11 @@
+[project]
+name = "kata-gym-python"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["katas/*", "projects/*"]
+
+[dependency-groups]
+dev = ["pytest>=8"]

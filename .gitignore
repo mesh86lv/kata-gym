@@ -1,0 +1,8 @@
+.venv
+.direnv
+.current
+plans
+target
+node_modules
+__pycache__
+.pytest_cache
